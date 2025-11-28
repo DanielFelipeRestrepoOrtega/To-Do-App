@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+    padding: 20px;
+    background: #4caf50;
+     color: white;
+}
+
+.container{
+    max-width: 400px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.input-group {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+  font-size: 16px;
+}
+button {
+  padding: 8px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background: #4caf50;
+  color: white;
+  border-radius: 4px;
+}
+button:hover {
+  background: #43a06d;
+}
+/* LISTA DE TAREAS */
+#lista {
+  margin-top: 20px;
+  padding: 0;
+}
+
+#lista li {
+  list-style: none;
+  background: #e0e0e0;
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
