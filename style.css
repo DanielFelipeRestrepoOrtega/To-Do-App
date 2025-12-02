@@ -12,7 +12,7 @@ body{
 header{
     text-align: center;
     padding: 20px;
-    background: #4caf50;
+    background: rgb(244, 163, 14);
      color: white;
 }
 
@@ -39,12 +39,12 @@ button {
   font-size: 16px;
   cursor: pointer;
   border: none;
-  background: #4caf50;
+  background: #f38815;
   color: white;
   border-radius: 4px;
 }
 button:hover {
-  background: #43a06d;
+  background: #f3dd37;
 }
 /* LISTA DE TAREAS */
 #lista {
